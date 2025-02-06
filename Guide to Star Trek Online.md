@@ -1,3 +1,6 @@
+This guide will get you to around 200k dps in elite random TFO's, which should be sufficient so you don't have to be carried by others.
+Millions of dps are possible tho, but I didn't go digging that deep.
+
 # Build
 
 Cptn: Any, preferably Alien
