@@ -1,0 +1,28 @@
+Windows has library files (extension dll), which can be an exe file or a script compiled to dll format. You can call the dll with rundll32.exe, or import dll with regasm.exe or register it with regsvr32.exe.
+Thing about libraries is that compiling to dll makes a really, really compact and small file, and different scripts compiled to dll may end up with same hash. And on normal Windows OS, there are thousands of
+dll files. So, Microsoft decided not to scan them, so Defender wont prompt you if there is an infected one, or a malicious one. Similarily, Windows Firewall wont log dll traffic.
+To make a dll you need to enter it's GUID inside of it, and GUID is a unique identifier for anything inside the OS. Your device can have a GUID, your app can have a GUID.
+There is a registry key in Windows, called COMAutoApprovalList, and any guid entered inside means that guid will auto elevate without prompting Administrator for approval.
+So, as you can see, this gives anyone malicious a tool to molest users. Windows comes with gpsvc service, with special permissions that make the Administrator unable to disable this service,
+and gpsvc service basically serves to remotely apply policies to end users. Meaning any policy user configures, be it hardening or perf tweak, or whatever, is a subject to remote change at
+any given moment, without notifying the user. In case user doesn't use policies to tweak their OS, but instead modify registry directly, Microsoft added a security identifier (SID) S-1-15-3,
+throughout entire Windows registry permissions, so any reg tweak user does is also subject to change.
+
+If you right click your drive, click properties and see a security tab, that means filesystem that drive is formatted with supports SID's. If it doesn't, it means everyone has access.
+If it's a normal local Windows drive, you will have 4 groups of users. Authenticated Users, Users, System, and Administrators. And Authenticated users group basically means anyone who can authenticate,
+and authenticate as anything, has permissions that group gives. Usually it's read, execute, write and modify permissions. If you deleted the other 3 groups, Windows would continue working normally,
+because system would authenticate as system, Administrators would authenticate as Administrators, and Users would authenticate as Users. 
+
+If any hacker ads his network to yours, he may abuse the fact his network is on your local network to drop a dll to your drive by simply authenticating as anonymous or null or whatever, use run as invoker
+to add his dll to your registry COMAutoApprovalList and molest you for eternity without ever being detected. And if anyone DM's you on facebook, discord, or anywhere online, he will be added to an internet zone
+on your local pc, from where he can do dmg. It doesn't even take executing anything. Normally UAC isn't set to max, meaning file copying doesn't require authenticating, meaning all the hacker needs to do, 
+is copy something over that normally starts when your PC starts, replace it and wait for you to reboot your PC.
+
+A third method would be to host a webserver, use a certificate that includes code signing on it, host up to date content on it, legit content, so that users visit it looking for a guide or help with something,
+an when that user visits, he will auto accept the cert, giving the web server power even greater than Administrator on users machine as certs are above administrators in chain of command.
+
+The above 3 stuff is basically just a McGuyver way of doing things. A real hacker will user nessus scripts to determine what OS you are running, and what exploits you are vulnerable to. And Microsoft fixes a nice
+list of exploits every month, with an even bigger list being generated with every new feature added.
+
+Windows can only be used if you are using a custom build, but that means you could potentionally move from one bad master to another. And Linux isn't a god given OS that will solve all your issues. 
+Linux simply isn't as attacked as much as Windows is, and if they ever become that, they will likely lack the manpower and finances to deal with it.
