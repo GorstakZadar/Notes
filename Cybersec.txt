@@ -3,6 +3,7 @@ Thing about libraries is that compiling to dll makes a really, really compact an
 dll files. So, Microsoft decided not to scan them, so Defender wont prompt you if there is an infected one, or a malicious one. Similarily, Windows Firewall wont log dll traffic.
 To make a dll you need to enter it's GUID inside of it, and GUID is a unique identifier for anything inside the OS. Your device can have a GUID, your app can have a GUID.
 There is a registry key in Windows, called COMAutoApprovalList, and any guid entered inside means that guid will auto elevate without prompting Administrator for approval.
+
 So, as you can see, this gives anyone malicious a tool to molest users. Windows comes with gpsvc service, with special permissions that make the Administrator unable to disable this service,
 and gpsvc service basically serves to remotely apply policies to end users. Meaning any policy user configures, be it hardening or perf tweak, or whatever, is a subject to remote change at
 any given moment, without notifying the user. In case user doesn't use policies to tweak their OS, but instead modify registry directly, Microsoft added a security identifier (SID) S-1-15-3,
