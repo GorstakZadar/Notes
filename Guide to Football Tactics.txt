@@ -6,7 +6,7 @@ c) 2 attackers = standard
 d) 3 attackers = counter
 e) 4 attackers = defensive
 
-2. Set fluidity on depending on horizontal lines missing in formation (don't forget SW):
+2. Set fluidity depending on horizontal lines missing in formation (don't forget SW):
 
 a) 4 lines missing = very fluid
 b) 3 line missing = fluid
