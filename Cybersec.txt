@@ -27,3 +27,6 @@ list of exploits every month, with an even bigger list being generated with ever
 
 Windows can only be used if you are using a custom build, but that means you could potentionally move from one bad master to another. And Linux isn't a god given OS that will solve all your issues. 
 Linux simply isn't as attacked as much as Windows is, and if they ever become that, they will likely lack the manpower and finances to deal with it.
+
+You have a choice of using a macky reddy iso from archive.org but his stuff is usually stripped to the bone. 2nd choice is using my custom builds, but I get attacked by both good guys and bad guys 
+and I can't vouch what you download from me isn't touched by someone else. Ideally, you wanna follow my debloat guide and use my presets to create your own debloated iso, but that involves paying for NTLite.
