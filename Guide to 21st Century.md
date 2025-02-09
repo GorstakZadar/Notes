@@ -97,4 +97,7 @@ it's the parasites doing. The parasite can be ordered to shut you down, so you m
 time someone wants to rape you. I beleive you become weak minded and easy to order around, and you don't remember what happened afterwards.
 There is also a possibility this bug will feed with your teeth, in case it can't find food when you fall asleep and it leaves you searching for food.
 
-Is this bug something that came with aliens, I do not know.
+Is this bug something that came with aliens, I do not know. The only way to detect an ******** is by using a dog. Disguise wont fool dogs. 
+But my dog didn't bark on my dad. It only barked at a single person in whole town. It did however ran away from my dad once, scared and hid near me in my room, 
+so I suspect my dad is a shapeshifter. What is that person my dog barked on I don't know yet.
+Cats can be useful in catching the parasite when it leaves your ear.
