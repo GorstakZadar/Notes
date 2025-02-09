@@ -87,3 +87,11 @@ So, Trump is thanking for protection to same people that organised attack on him
 
 So why is all this happening, you ask? Well, imagine you owned trillion of $$$. What use do you have from rest of 8 billion people? Bots can do everything.
 All you need to be is be immortal. And guess what's AI's lifespan.
+
+It seems some kind of parasites that attack human mind exist. It is likely a bug, an insect of some sort, that can be used to manipulate the victim.
+The mind parasites serve to tranquilise human host, block all agression, and make humans unable to defend themselves. Gays seem to be spreading them, 
+and if you think you were raped but don't remember it, it was likely to infect you with one. Gays seem to put a bit of skin and some dirt into your ear 
+when they infect you with one, to stop it from leaving your ear. If you started liking guys being a grown and developed hetero male,
+it's the parasites doing. The parasite can be ordered to shut you down, so you may end up listening to parasites orders and you may end up shutting down any
+time someone wants to rape you. I beleive you become weak minded and easy to order around, and you don't remember what happened afterwards.
+There is also a possibility this bug will feed with your teeth, in case it can't find food when you fall asleep and it leaves you searching for food.
